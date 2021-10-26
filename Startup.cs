@@ -12,6 +12,7 @@ using MySqlConnector;
 using SalesProject.Data;
 using  Microsoft.EntityFrameworkCore;
 using Pomelo.EntityFrameworkCore;
+using SalesProject.Service;
 
 
 namespace SalesProject
@@ -36,6 +37,8 @@ namespace SalesProject
         });
 
             services.AddScoped<SeedingService>();
+            services.AddScoped<SellerService>();
+            services.AddScoped<DepartmentService>();
 
         }
 

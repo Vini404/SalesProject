@@ -21,7 +21,7 @@ using SalesProject;
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\Dev\Desktop\SalesProject\Views\_ViewImports.cshtml"
-using SalesProject.Models;
+using SalesProject.Models.ViewModel;
 
 #line default
 #line hidden
